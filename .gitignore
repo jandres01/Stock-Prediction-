@@ -2,6 +2,10 @@
 /data
 jandres/IndividualStudy/program1/data/return-data.csv
 
+#Removing other folders
+/directedStudy/neural-networks-and-deep-learning/
+/directedStudy/tensorflow-mnist-tutorial/
+
 # Removing files with passwords
 Merge Data Tools/data-generator.R
 Merge Data Tools/monthly-momentum-data-generator.R
