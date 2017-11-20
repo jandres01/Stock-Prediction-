@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Establish a connection to WRDS in R</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for wrdsConnect {wrdsr}"><tr><td>wrdsConnect {wrdsr}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Establish a connection to WRDS in R</h2>
+
+<h3>Description</h3>
+
+<p><code>wrdsConnect</code> returns a connection to the WRDS database
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+wrdsConnect(username, password, librefs = NULL, conn = "postgresql")
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>username</code></td>
+<td>
+<p>Your WRDS username as a character string</p>
+</td></tr>
+<tr valign="top"><td><code>password</code></td>
+<td>
+<p>Your WRDS password as a character string</p>
+</td></tr>
+<tr valign="top"><td><code>librefs</code></td>
+<td>
+<p>An optional paramater that can be used to assign SAS libraries.  This
+should be a character string of the form &quot;library_name 'location'&quot;.  If you have
+multiple libraries then they should be seperated by a semicolon like this,
+&quot;library_name1 location1';library_name2 'location2';library_name3 'location3&quot;.
+Unfortunately, it does not seem to be possible to assign multiple locations to a single
+library using a JDBC connection, so you will have to provide unique library names for
+each location.  Most of the WRDS data is already preassigned to a library, so you
+shouldn't need to assign library names very often anyway.</p>
+</td></tr>
+<tr valign="top"><td><code>conn</code></td>
+<td>
+<p>Specify whether you want to connect using 'postgresql' or 'sas'</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>wrdsConnect will return a <code><a href="../../DBI/html/DBIConnection.html">DBIConnection</a></code> object that can be
+used with DBI functions such as <code><a href="../../DBI/html/dbSendQuery.html">dbSendQuery</a></code> to access the WRDS
+database.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Not run: 
+wrds &lt;- wrdsConnect("your_wrds_username", "your_wrds_password")
+sql &lt;- "SELECT conm, fyear, at
+        FROM compm.funda
+        WHERE fyear &gt;= 2010"
+res &lt;- dbSendQuery(wrds, sql)
+data &lt;- dbFetch(res)
+
+wrds &lt;- wrdsConnect("jestover", "Aetnaus758", "SEC '/wrds/sec/sasdata'")
+sql &lt;- "SELECT *
+        FROM sec.wforms2"
+res &lt;- dbSendQuery(wrds, sql)
+data &lt;- dbFetch(res)
+
+## End(Not run)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>wrdsr</em> version 0.1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

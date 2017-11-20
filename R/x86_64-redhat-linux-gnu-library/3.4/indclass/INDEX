@@ -1,0 +1,9 @@
+ff38_desc               Convert Fama-French 38 industry codes to
+                        descriptions
+ff38_label              Convert Fama-French 38 industry codes to labels
+indclass                indclass: a collection of tools for working
+                        with industry codes
+naics_group             Convert full NAICS codes to 2, 3, 4, or 5 digit
+                        codes
+sic_to_ff38             Convert SIC codes to Fama French 38 industry
+                        codes

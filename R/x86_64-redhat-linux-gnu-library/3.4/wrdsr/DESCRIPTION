@@ -1,0 +1,18 @@
+Package: wrdsr
+Title: Allows WRDS users to easily access their WRDS data in R.
+Version: 0.1.0
+Authors@R: "Joseph Stover <jestover@crimson.ua.edu> [aut, cre]"
+Description: Currently this package allows a WRDS user to establish a connection
+    to the WRDS database using a single function call along with her username and
+    password. If you have ideas for other functions that would make working with
+    WRDS data in R easier please contact the maintainer.
+Depends: R (>= 3.1.2), DBI (>= 0.3.1)
+Imports: rJava (>= 0.9-6), RJDBC (>= 0.2-5)
+License: Must have a WRDS account to use this software
+LazyData: true
+Suggests: knitr
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+Author: "Joseph Stover" [aut, cre]
+Maintainer: "Joseph Stover" <jestover@crimson.ua.edu>
+Built: R 3.4.1; ; 2017-11-13 16:11:09 UTC; unix

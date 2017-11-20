@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Methods for the class 'JDBCConnect' in Package 'RJDBC'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for JDBCConnection-methods {RJDBC}"><tr><td>JDBCConnection-methods {RJDBC}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Methods for the class &lsquo;JDBCConnect&rsquo; in Package &lsquo;RJDBC&rsquo;</h2>
+
+<h3>Description</h3>
+
+<p>Methods for the class &lsquo;JDBCConnection&rsquo; in Package &lsquo;RJDBC&rsquo;.
+</p>
+<p><code>dbSendQuery</code> and <code>dbSendUpdate</code> submit a SQL query to the
+database. The difference between the two is only that
+<code>dbSendUpdate</code> is used with DBML queries and thus doesn't return
+any result set.
+</p>
+<p><code>dbGetTables</code> and <code>dbGetFields</code> are similar to
+<code>dbListTables</code> and <code>dbListFields</code> but the result is a data
+frame with all available details (whereas the latter return only a
+character vector of the names).
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+dbSendUpdate (conn, statement, ...)
+dbGetTables (conn, ...)
+dbGetFields (conn, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>conn</code></td>
+<td>
+<p>connection object</p>
+</td></tr>
+<tr valign="top"><td><code>statement</code></td>
+<td>
+<p>SQL statement to execute</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>additional arguments to prepared statement substituted for
+&quot;?&quot;</p>
+</td></tr>
+</table>
+
+
+<h3>Methods</h3>
+
+
+<dl>
+<dt>dbCommit</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+<dt>dbDataType</dt><dd><p><code>signature(dbObj = "JDBCConnection", obj =
+	"ANY", ...)</code></p>
+</dd>
+<dt>dbDisconnect</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+<dt>dbExistsTable</dt><dd><p><code>signature(conn = "JDBCConnection", name =
+  "character", ...)</code></p>
+</dd>
+<dt>dbGetException</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+<dt>dbGetFields</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+<dt>dbGetInfo</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+<dt>dbGetQuery</dt><dd><p><code>signature(conn = "JDBCConnection", statement
+	= "character", ...)</code></p>
+</dd>
+<dt>dbGetTables</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+<dt>dbListFields</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+<dt>dbListResults</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+<dt>dbListTables</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+<dt>dbReadTable</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+<dt>dbRemoveTable</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+<dt>dbRollback</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+<dt>dbSendQuery</dt><dd><p><code>signature(conn = "JDBCConnection",
+	statement = "character", ...)</code></p>
+</dd>
+<dt>dbSendUpdate</dt><dd><p><code>signature(conn = "JDBCConnection",
+	statement = "character", ...)</code></p>
+</dd>
+<dt>dbWriteTable</dt><dd><p><code>signature(conn = "JDBCConnection", ...)</code></p>
+</dd>
+</dl>
+
+<hr /><div style="text-align: center;">[Package <em>RJDBC</em> version 0.2-5 <a href="00Index.html">Index</a>]</div>
+</body></html>

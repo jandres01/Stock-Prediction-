@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Methods for the class JDBCResult in Package 'RJDBC' ~~</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for JDBCResult-methods {RJDBC}"><tr><td>JDBCResult-methods {RJDBC}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Methods for the class JDBCResult in Package &lsquo;RJDBC&rsquo; ~~</h2>
+
+<h3>Description</h3>
+
+<p>Methods for the class &lsquo;JDBCResult&rsquo; in Package &lsquo;RJDBC&rsquo;.
+</p>
+<p><code>fetch</code> retrieves the content of the result set in the form of a
+data frame. If <code>n</code> is -1 then the current implementation fetches
+32k rows first and then (if not sufficient) continues with chunks of
+512k rows, appending them. If the size of the result set is known in
+advance, it is most efficient to set <code>n</code> to that size.
+</p>
+<p>Additional argument <code>block</code> can be used to inform the driver
+that pre-fetching of a certain block of records is desirable
+(see <code>setFetchSize()</code> in JDBC) leading to possibly faster pulls
+of large queries. The default is to pre-fetch 2048 records. Note
+that some databases (like Oracle) don't support a fetch size of more
+than 32767. If set to <code>NA</code> or anything less than 1 then the
+fetch size is not changed. This is only a hint, drivers are free to
+ignore it.
+</p>
+<p><code>dbClearResult</code> releases the result set.
+</p>
+<p><code>dbColumnInfo</code> returns basic information about the columns
+(fields) in the result set.
+</p>
+<p><code>dbGetInfo</code> returns an empty list.
+</p>
+<p><code>dbListResults</code> returns an empty list and warns that JDBC doesn't
+track results.
+</p>
+
+
+<h3>Methods</h3>
+
+
+<dl>
+<dt>fetch</dt><dd><p><code>signature(res = "JDBCResult", ...)</code></p>
+</dd>
+<dt>dbClearResult</dt><dd><p><code>signature(res = "JDBCResult", ...)</code></p>
+</dd>
+<dt>dbColumnInfo</dt><dd><p><code>signature(res = "JDBCResult", ...)</code></p>
+</dd>
+<dt>dbGetInfo</dt><dd><p><code>signature(res = "JDBCResult", ...)</code></p>
+</dd>
+<dt>dbListResults</dt><dd><p><code>signature(res = "JDBCResult", ...)</code></p>
+</dd>
+</dl>
+
+<hr /><div style="text-align: center;">[Package <em>RJDBC</em> version 0.2-5 <a href="00Index.html">Index</a>]</div>
+</body></html>

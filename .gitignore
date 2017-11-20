@@ -1,0 +1,7 @@
+# Removing large data files
+/data
+
+# Removing files with passwords
+Merge Data Tools/data-generator.R
+Merge Data Tools/monthly-momentum-data-generator.R
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: JDBC engine</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for JDBC {RJDBC}"><tr><td>JDBC {RJDBC}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+JDBC engine
+</h2>
+
+<h3>Description</h3>
+
+<p><code>JDBC</code> creates a new DBI driver that can be used to start JDBC connections.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+  JDBC (driverClass = "", classPath = "", identifier.quote = NA)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>driverClass</code></td>
+<td>
+<p>name of the Java class of the JDBC driver to
+load. If empty, it is assumed that corresponding JDBC drivers were
+loaded by other means.</p>
+</td></tr>
+<tr valign="top"><td><code>classPath</code></td>
+<td>
+<p>class path that needs to be appended in order to
+load the desired JDBC driver. Usually it is the path to the JAR file
+containing the driver.</p>
+</td></tr>
+<tr valign="top"><td><code>identifier.quote</code></td>
+<td>
+<p>character to use for quoting identifiers in
+automatically generated SQL statements or <code>NA</code> if the back-end
+doesn't support quoted identifiers. See details section below.</p>
+</td></tr>    
+</table>
+
+
+<h3>Details</h3>
+
+<p><code>JDBC</code> function has two purposes. One is to initialize the Java VM
+and load a Java JDBC driver (not to be confused with the
+<code>JDBCDriver</code> R object which is actually a DBI driver). The
+second purpose is to create a proxy R object which can be used to a
+call <code><a href="../../DBI/html/dbConnect.html">dbConnect</a></code> which actually creates a connection.
+</p>
+<p>JDBC requires a JDBC driver for a database-backend to be
+loaded. Usually a JDBC driver is supplied in a Java Archive (jar)
+file. The path to such a file can be specified in
+<code>classPath</code>. The driver itself has a Java class name that is used
+to load the driver (for example the MySQL driver uses
+<code>com.mysql.jdbc.Driver</code>), this has to be specified in
+<code>driverClass</code>.
+</p>
+<p>Due to the fact that JDBC can talk to a wide variety of databases, the
+SQL dialect understood by the database is not known in
+advance. Therefore the RJDBC implementation tries to adhere to the SQL92
+standard, but not all databases are compliant. This affects mainly
+functions such as <code><a href="../../DBI/html/dbWriteTable.html">dbWriteTable</a></code> that have to
+automatically generate SQL code. One major ability is the support for
+quoted identifiers. The SQL92 standard uses double-quotes, but many
+database engines either don't support it or use other character. The
+<code>identifier.quote</code> parameter allows you to set the proper quote
+character for the database used. For example MySQL would require
+<code>identifier.quote="`"</code>. If set to <code>NA</code>, the ability to quote
+identifiers is disabled, which poses restrictions on the names that
+can be used for tables and fields. Other functionality is not affected.  
+</p>
+<p>As of RDJBC 0.2-2 JDBC-specific stored procedure calls starting with
+<code>{call</code> and <code>{?= call</code> are supported in the statements.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Returns a <code>JDBCDriver</code> object that can be used in calls to
+<code><a href="../../DBI/html/dbConnect.html">dbConnect</a></code>.
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../DBI/html/dbConnect.html">dbConnect</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Not run: 
+drv &lt;- JDBC("com.mysql.jdbc.Driver",
+  "/etc/jdbc/mysql-connector-java-3.1.14-bin.jar", "`")
+conn &lt;- dbConnect(drv, "jdbc:mysql://localhost/test")
+dbListTables(conn)
+data(iris)
+dbWriteTable(conn, "iris", iris)
+dbGetQuery(conn, "select count(*) from iris")
+d &lt;- dbReadTable(conn, "iris")
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>RJDBC</em> version 0.2-5 <a href="00Index.html">Index</a>]</div>
+</body></html>
