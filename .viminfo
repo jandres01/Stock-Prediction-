@@ -150,20 +150,21 @@ $
 	print(list(map(lambd
 
 # File marks:
-'0  5  0  ~/.gitignore
-'1  4  0  ~/.gitignore
-'2  1  0  ~/.gitignore
-'3  5  0  ~/.gitignore
-'4  5  0  ~/.gitignore
-'5  1  23  ~/stockRNN2.py
-'6  9  27  ~/stockRNN2.py
-'7  142  10  ~/stockRNN2.py
-'8  94  0  ~/organize_data2.py
-'9  131  2  ~/Merge Data Tools/data-generator.R
+'0  3  52  ~/.gitignore
+'1  6  0  ~/.gitignore
+'2  5  0  ~/.gitignore
+'3  1  0  ~/.gitignore
+'4  6  0  ~/.gitignore
+'5  6  0  ~/.gitignore
+'6  1  23  ~/stockRNN2.py
+'7  9  27  ~/stockRNN2.py
+'8  142  10  ~/stockRNN2.py
+'9  94  0  ~/organize_data2.py
 
 # Jumplist (newest first):
+-'  3  52  ~/.gitignore
+-'  6  0  ~/.gitignore
 -'  5  0  ~/.gitignore
--'  4  0  ~/.gitignore
 -'  1  0  ~/.gitignore
 -'  1  23  ~/stockRNN2.py
 -'  8  0  ~/stockRNN2.py
@@ -257,25 +258,27 @@ $
 -'  44  6  ~/organize_data2.py
 -'  45  6  ~/organize_data2.py
 -'  111  27  ~/stockRNN2.py
+-'  4  0  ~/.gitignore
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	5	0
-	^	7	0
-	.	5	0
+	"	3	52
+	^	3	53
+	.	3	0
 	+	1	5
-	+	5	53
-	+	5	36
-	+	5	0
-	+	5	0
-	+	5	0
-	+	5	0
+	+	6	53
+	+	6	36
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
 	+	1	26
-	+	4	30
-	+	5	0
-	+	6	50
-	+	5	0
+	+	5	30
+	+	6	0
+	+	7	50
+	+	6	0
+	+	3	0
 
 > ~/stockRNN2.py
 	"	1	23

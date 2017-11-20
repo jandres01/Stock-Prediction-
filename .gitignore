@@ -1,5 +1,6 @@
 # Removing large data files
 /data
+jandres/IndividualStudy/program1/data/return-data.csv
 
 # Removing files with passwords
 Merge Data Tools/data-generator.R
