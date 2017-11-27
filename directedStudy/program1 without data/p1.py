@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 import organize_data as od
 
-mnist = od.read_data("./data/return-data.csv")
+mnist = od.read_data()
 
 #hidden layer for complex
 

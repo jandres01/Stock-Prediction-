@@ -1,0 +1,49 @@
+
+R version 3.4.1 (2017-06-30) -- "Single Candle"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-redhat-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+> #### Header ####
+> 
+> # Program created to pull data from CRSP/Compustat to use for building an neural
+> # network that can identify the stocks that will have the highest decile of alpha
+> # next period and the lowest decile of alpha to construct a long-short portfolio
+> #
+> # Created:
+> #   Date - Mar. 31, 2017
+> #   R Version - 3.3.3 (RStudio Version 1.0.136)
+> # Last Modified:
+> #   Date - Mar. 31, 2017
+> #   R Version - 3.3.3 (RStudio Version 1.0.136)
+> 
+> 
+> #### Sources ####
+>   # Increase Java max heap size to 12 GB
+>   options(java.parameters = "-Xmx12g")
+>   # Increase warning length to max allowed so if SQL statements produce error it will all print
+>   options(warning.length = 8170)
+>   library("wrdsr")
+>   library("dplyr") 
+>   library("readr")
+>   library("tibble")
+>   library("indclass")
+>   library("lubridate")
+>   library("zoo")
+> 
+> #### Establish connection to WRDS ####
+> 
+>   wrds_db <- wrdsConnect("jestover", "mkQ2NiG86D$UuUw@U$0l", librefs = "wrdssec '/wrds/sec/sasdata'", conn = "postgresql")
+>   local_db <- src_sqlite(path.expand("~/Desktop/financial-data.sqlite"), create = T)

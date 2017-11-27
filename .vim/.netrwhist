@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/jandres/R/x86_64-redhat-linux-gnu-library'
 let g:netrw_dirhist_2='/home/jandres/IndividualStudy/program1'
 let g:netrw_dirhist_3='/home/jandres/IndividualStudy/program1/data'
@@ -7,3 +7,5 @@ let g:netrw_dirhist_4='/home/jandres/IndividualStudy/program1'
 let g:netrw_dirhist_5='/home/jandres/IndividualStudy/program1/MergeFiles'
 let g:netrw_dirhist_6='/home/jandres/Merge Data Tools/indclass'
 let g:netrw_dirhist_7='/home/jandres/Merge Data Tools'
+let g:netrw_dirhist_8='/home/jandres/Output'
+let g:netrw_dirhist_9='/home/jandres/directedStudy/program1 without data'

@@ -10,6 +10,6 @@
 #PBS -m ae
 
 cd Merge\ Data\ Tools/
-R --vanilla < data-generator.R
+R --vanilla < monthly-momentum-data-generator.R #data-generator.R
 
 

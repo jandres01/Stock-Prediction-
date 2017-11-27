@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/num_epochs
+~MSle0~/asdasd
 
 # Last Substitute String:
 $
@@ -16,13 +16,18 @@ $
 # Command Line History (newest to oldest):
 :wq
 :w
+:38
 :q
+:q!
+:w monthlyNN.py
+:w monthly_organize_data.py
+:wq!
+:w!
 :W
 :131
 :13`
 :24
 :q\
-:q!
 :62
 :61
 :60
@@ -59,13 +64,25 @@ $
 :Wq
 :179
 :105
-:103
-:101
-:59
-:56
-:91
 
 # Search String History (newest to oldest):
+?/asdasd
+?/Y
+?/H2
+?/qqweqwe
+?/next_batch
+?/ashdkjad
+?/asdad
+?/mnist
+?/a
+?/y
+?/train_data
+?/batch_X
+?/src
+?/dbi
+?/src_dbi
+?/drop
+?/data
 ?/num_epochs
 ?/num_batches
 ?/current_state
@@ -89,8 +106,6 @@ $
 ? \<rows\>
 ?/sajhdkjasd
 ? \<training_y\>
-?/src
-?/src_dbi
 ?/plt
 ?/ply
 ?/batchX
@@ -101,21 +116,6 @@ $
 ?/loss_list
 ?/batchX_placeholder
 ?/bar
-?/fit
-?/crsp
-?/sdsfsd
-?/x
-?/_current_state
-?/batch_size
-?/35
-?/labels_series
-?/state
-?/println
-?/printlln
-?/labels_s
-? \<data\>
-?/unstack
-?/unpack
 
 # Expression History (newest to oldest):
 
@@ -124,49 +124,130 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	 dataX[:,:,0] = pd.pivot_table(mnist,values='price_norm',index='gvkey',columns='date')
-	    
+"0	LINE	0
+	    #dfData = dfData[(dfData.gvkeyCount == 756)]
 ""1	LINE	0
-	Merge\ Data\ Tools/data-generator.R 
+	#adam optimzer intialization happens after declaration
 "2	LINE	0
-	Merge\ Data\ Tools/monthly-momentum-data-generator.R 
+	    dataY = dataY.dropna()
 "3	LINE	0
-	
+	    
 "4	LINE	0
 	
 "5	LINE	0
-	    df
-"6	LINE	0
-	#cell = tf.contrib.rnn.MultiRNNCell([cell] * num_layers, state_is_tuple=True)
-"7	LINE	0
-	#cell = tf.contrib.rnn.LSTMCell(state_size, state_is_tuple=True)
-"8	LINE	0
-	cell = tf.contrib.rnn.MultiRNNCell(stacked_rnn, state_is_tuple=True)
-"9	LINE	0
 	
-	#cell = tf.contrib.rnn.MultiRNNCell(stacked_rnn, state_is_tuple=True)
+"6	LINE	0
+	" ============================================================================
+	" Netrw Directory Listing                                        (netrw v149)
+	"   /home/jandres/directedStudy/program1 without data
+	"   Sorted by      name
+	"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+	"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
+	" ============================================================================
+	../
+	./
+	data/
+	organize_data.py
+	organize_data.pyc
+	p1.py
+	p1.pyc
+	rnn.py
+	tensorflowvisu.mplstyle
+	tensorflowvisu.py
+	tensorflowvisu_digits.py
+	tf_mnist_softmax.py
+	.swp
+"7	LINE	0
+	    #dfData = dfData[(dfData.gvkeyCount == 756)]
+"8	LINE	0
+	    #dfData['gvkeyCount'] = dfData.groupby(['gvkey'])['gvkey'].transform('count')
+"9	LINE	0
+	    #dfData['volume_norm'] = dfData['volume']/(dfData['volume_max'] * 1.25)
 "-	CHAR	0
 	print(list(map(lambd
 
 # File marks:
-'0  7  40  ~/.gitignore
-'1  3  0  ~/.gitignore
-'2  10  0  ~/.gitignore
-'3  1  0  ~/.gitignore
-'4  10  0  ~/.gitignore
-'5  10  0  ~/.gitignore
-'6  1  23  ~/stockRNN2.py
-'7  9  27  ~/stockRNN2.py
-'8  142  10  ~/stockRNN2.py
-'9  94  0  ~/organize_data2.py
+'0  61  0  ~/monthlyNN.py
+'1  74  18  ~/monthlyNN.py
+'2  34  54  ~/monthlyNN.py
+'3  6  18  ~/monthlyNN.py
+'4  10  37  ~/directedStudy/program1 without data/p1.py
+'5  1  4  ~/directedStudy/program1 without data/p1.py
+'6  81  4  ~/monthlyNN.py
+'7  49  18  ~/monthly_organize_data.py
+'8  75  26  ~/monthlyNN.py
+'9  40  6  ~/monthly_organize_data.py
 
 # Jumplist (newest first):
--'  7  40  ~/.gitignore
+-'  61  0  ~/monthlyNN.py
+-'  77  34  ~/monthlyNN.py
+-'  74  0  ~/monthlyNN.py
+-'  48  50  ~/monthlyNN.py
+-'  34  0  ~/monthlyNN.py
+-'  35  30  ~/monthlyNN.py
+-'  37  38  ~/monthlyNN.py
+-'  38  30  ~/monthlyNN.py
+-'  45  0  ~/monthlyNN.py
+-'  59  0  ~/monthlyNN.py
+-'  6  0  ~/monthlyNN.py
+-'  10  37  ~/directedStudy/program1 without data/p1.py
+-'  1  0  ~/directedStudy/program1 without data/p1.py
+-'  41  4  ~/directedStudy/program1 without data/p1.py
+-'  81  8  ~/monthlyNN.py
+-'  75  4  ~/monthlyNN.py
+-'  49  18  ~/monthly_organize_data.py
+-'  40  6  ~/monthly_organize_data.py
+-'  37  4  ~/monthly_organize_data.py
+-'  1  0  ~/monthlyNN.py
+-'  76  4  ~/monthlyNN.py
+-'  76  4  ~/monthly_organize_data.py
+-'  4  0  ~/monthlyNN.py
+-'  69  4  ~/monthly_organize_data.py
+-'  1  0  ~/monthly
+-'  14  0  ~/Merge Data Tools/mergeFiles.sh
+-'  13  0  ~/Merge Data Tools/mergeFiles.sh
+-'  141  0  ~/stockRNN2.py
+-'  6  0  ~/stockRNN2.py
+-'  94  0  ~/organize_data2.py
+-'  24  4  ~/stockRNN2.py
+-'  16  4  ~/organize_data2.py
+-'  16  0  ~/directedStudy/program1 without data/p1.py
+-'  132  0  ~/directedStudy/program1 without data/organize_data.py
+-'  7  5  ~/monthlyNN.py
+-'  70  32  ~/monthlyNN.py
+-'  69  25  ~/monthlyNN.py
+-'  63  20  ~/monthlyNN.py
+-'  44  0  ~/monthlyNN.py
+-'  7  0  ~/directedStudy/program1 without data
+-'  110  13  ~/Merge Data Tools/monthly-momentum-data-generator.R
+-'  32  2  ~/Merge Data Tools/monthly-momentum-data-generator.R
+-'  78  31  ~/monthly_organize_data.py
+-'  1  0  ~/monthly_organize_data.py
+-'  285  1  ~/Merge Data Tools/data-generator.R
+-'  32  14  ~/Merge Data Tools/data-generator.R
+-'  72  14  ~/Merge Data Tools/data-generator.R
+-'  95  34  ~/Merge Data Tools/data-generator.R
+-'  82  11  ~/Merge Data Tools/data-generator.R
+-'  42  0  ~/Output/jandres_job.e3706
+-'  1  0  ~/Merge Data Tools/data-generator.R
+-'  1  0  ~/stockRNN2.py
+-'  42  0  ~/Output/jandres_job.e3474
+-'  1  0  ~/Output/jandres_job.e3706
+-'  1  0  ~/Output
+-'  280  2  ~/Merge Data Tools/monthly-momentum-data-generator.R
+-'  131  6  ~/Merge Data Tools/monthly-momentum-data-generator.R
+-'  87  6  ~/Merge Data Tools/monthly-momentum-data-generator.R
+-'  92  1  ~/Merge Data Tools/monthly-momentum-data-generator.R
+-'  131  2  ~/Merge Data Tools/data-generator.R
+-'  43  0  ~/Output/jandres_job.e3705
+-'  1  0  ~/Output/jandres_job.e3705
+-'  181  2  ~/Merge Data Tools/monthly-momentum-data-generator.R
+-'  1  0  ~/Merge Data Tools/monthly-momentum-data-generator.R
+-'  8  7  ~/.gitignore
+-'  7  0  ~/.gitignore
 -'  3  0  ~/.gitignore
--'  10  0  ~/.gitignore
+-'  11  0  ~/.gitignore
 -'  1  0  ~/.gitignore
--'  1  23  ~/stockRNN2.py
 -'  8  0  ~/stockRNN2.py
 -'  112  27  ~/stockRNN2.py
 -'  119  31  ~/stockRNN2.py
@@ -174,10 +255,7 @@ $
 -'  123  0  ~/stockRNN2.py
 -'  9  0  ~/stockRNN2.py
 -'  142  0  ~/stockRNN2.py
--'  94  0  ~/organize_data2.py
 -'  80  4  ~/organize_data2.py
--'  131  2  ~/Merge Data Tools/data-generator.R
--'  72  4  ~/Merge Data Tools/data-generator.R
 -'  131  20  ~/stockRNN2.py
 -'  51  34  ~/stockRNN2.py
 -'  49  0  ~/stockRNN2.py
@@ -188,7 +266,6 @@ $
 -'  73  4  ~/organize_data2.py
 -'  30  4  ~/stockRNN2.py
 -'  77  4  ~/organize_data2.py
--'  6  0  ~/stockRNN2.py
 -'  76  44  ~/organize_data2.py
 -'  74  36  ~/organize_data2.py
 -'  71  4  ~/organize_data2.py
@@ -197,95 +274,192 @@ $
 -'  86  4  ~/organize_data2.py
 -'  81  11  ~/organize_data2.py
 -'  79  27  ~/organize_data2.py
--'  78  46  ~/organize_data2.py
--'  84  4  ~/organize_data2.py
--'  67  0  ~/stockRNN2.py
--'  68  0  ~/stockRNN2.py
--'  72  51  ~/stockRNN2.py
--'  71  0  ~/stockRNN2.py
--'  53  98  ~/stockRNN2.py
--'  63  50  ~/stockRNN2.py
--'  79  41  ~/stockRNN2.py
--'  69  26  ~/stockRNN2.py
--'  76  34  ~/stockRNN2.py
--'  77  24  ~/stockRNN2.py
--'  70  34  ~/stockRNN2.py
--'  52  0  ~/stockRNN2.py
--'  20  4  ~/stockRNN2.py
--'  90  4  ~/organize_data2.py
--'  45  0  ~/stockRNN2.py
--'  89  4  ~/organize_data2.py
--'  19  4  ~/stockRNN2.py
--'  18  4  ~/readSQLite.py
--'  25  36  ~/readSQLite.py
--'  32  0  ~/readSQLite.py
--'  1  0  ~/readSQLite.py
--'  1  0  ~/readSQLite.R
--'  42  0  ~/Output/jandres_job.e3474
--'  1  0  ~/Output/jandres_job.e3474
--'  285  1  ~/Merge Data Tools/data-generator.R
--'  32  2  ~/Merge Data Tools/data-generator.R
--'  1  0  ~/Output/jandres_job.e3473
--'  13  13  ~/Merge Data Tools/mergeFiles.sh
--'  10  0  ~/Merge Data Tools/mergeFiles.sh
--'  1  0  ~/Output/jandres_job.o3472
--'  1  0  ~/Output/jandres_job.e3472
--'  1  0  ~/Output/jandres_job.
--'  5  0  ~/Merge Data Tools/mergeFiles.sh
--'  12  0  ~/Merge Data Tools/mergeFiles.sh
--'  11  0  ~/Merge Data Tools/mergeFiles.sh
--'  1  0  ~/Merge Data Tools/indclass/._src
--'  1  0  ~/Merge Data Tools/wrdsr/R/wrds-connection.R
--'  15  0  ~/Merge Data Tools/mergeFiles.sh
--'  1  0  ~/Merge Data Tools/mergeFiles.sh
--'  10  3  ~/directedStudy/Merge Data Tools/mergeFiles.sh
--'  11  0  ~/directedStudy/Merge Data Tools/mergeFiles.sh
--'  5  0  ~/directedStudy/Merge Data Tools/mergeFiles.sh
--'  132  0  ~/jandres/IndividualStudy/program1/organize_data.py
--'  1  0  ~/jandres/IndividualStudy/program1/organize_data.py
--'  32  2  ~/organize_data2.py
--'  33  4  ~/organize_data2.py
--'  34  4  ~/organize_data2.py
--'  35  4  ~/organize_data2.py
--'  36  4  ~/organize_data2.py
--'  37  6  ~/organize_data2.py
--'  38  6  ~/organize_data2.py
--'  39  6  ~/organize_data2.py
--'  40  6  ~/organize_data2.py
--'  41  6  ~/organize_data2.py
--'  42  6  ~/organize_data2.py
--'  43  6  ~/organize_data2.py
--'  44  6  ~/organize_data2.py
--'  45  6  ~/organize_data2.py
--'  111  27  ~/stockRNN2.py
--'  4  0  ~/.gitignore
+-'  25  0  ~/directedStudy/program1 without data/p1.py
+-'  10  0  ~/directedStudy/program1 without data/p1.py
 
 # History of marks within files (newest to oldest):
 
-> ~/.gitignore
-	"	7	40
-	^	7	41
-	.	8	0
-	+	1	5
-	+	10	53
-	+	10	36
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	1	26
-	+	7	30
-	+	10	0
-	+	11	50
-	+	10	0
-	+	3	0
-	+	4	0
-	+	5	22
-	+	8	0
-	+	8	0
+> ~/monthlyNN.py
+	"	61	0
+	^	61	103
+	.	61	102
+	+	7	3
+	+	23	3
+	+	23	15
+	+	23	52
+	+	23	1
+	+	23	0
+	+	23	0
+	+	23	3
+	+	7	7
+	+	28	21
+	+	23	4
+	+	23	3
+	+	23	3
+	+	23	0
+	+	23	3
+	+	23	0
+	+	23	18
+	+	7	13
+	+	23	0
+	+	7	27
+	+	23	53
+	+	23	0
+	+	7	0
+	+	23	0
+	+	20	0
+	+	8	119
+	+	12	53
+	+	13	59
+	+	14	30
+	+	15	36
+	+	16	31
+	+	20	52
+	+	17	72
+	+	18	73
+	+	19	73
+	+	20	72
+	+	21	0
+	+	23	0
+	+	23	0
+	+	23	0
+	+	21	0
+	+	23	12
+	+	22	12
+	+	23	15
+	+	4	18
+	+	16	0
+	+	33	39
+	+	1	0
+	+	75	27
+	+	33	31
+	+	6	0
+	+	26	19
+	+	33	42
+	+	34	37
+	+	48	49
+	+	27	10
+	+	33	48
+	+	34	45
+	+	37	43
+	+	40	42
+	+	34	45
+	+	37	43
+	+	40	42
+	+	34	46
+	+	35	31
+	+	37	47
+	+	40	42
+	+	34	46
+	+	43	0
+	+	34	54
+	+	35	35
+	+	37	41
+	+	30	24
+	+	37	40
+	+	38	33
+	+	31	68
+	+	32	17
+	+	45	0
+	+	44	0
+	+	46	0
+	+	43	7
+	+	48	55
+	+	49	0
+	+	53	0
+	+	51	52
+	+	54	60
+	+	56	0
+	+	54	56
+	+	83	4
+	+	84	4
+	+	57	51
+	+	57	73
+	+	60	52
+	+	64	57
+	+	67	47
+	+	48	0
+	+	52	50
+	+	74	19
+	+	77	0
+	+	61	102
+
+> ~/directedStudy/program1 without data/p1.py
+	"	25	0
+	^	3	24
+	.	3	24
+	+	3	32
+	+	5	8
+	+	3	24
+
+> ~/monthly_organize_data.py
+	"	49	18
+	.	90	0
+	+	80	0
+	+	83	35
+	+	73	0
+	+	67	45
+	+	70	4
+	+	71	42
+	+	71	20
+	+	64	0
+	+	71	21
+	+	67	23
+	+	76	57
+	+	74	59
+	+	75	13
+	+	68	0
+	+	72	0
+	+	75	0
+	+	77	41
+	+	91	0
+	+	86	26
+	+	86	54
+	+	86	0
+	+	90	54
+	+	90	0
+	+	88	10
+	+	90	10
+	+	90	22
+	+	90	22
+	+	90	10
+	+	90	10
+	+	88	11
+	+	90	0
+	+	90	0
+
+> ~/monthly
+	"	1	0
+
+> ~/Merge Data Tools/mergeFiles.sh
+	"	14	0
+	^	13	48
+	.	13	47
+	+	13	0
+	+	9	26
+	+	4	19
+	+	5	14
+	+	10	9
+	+	13	27
+	+	10	9
+	+	13	4
+	+	13	28
+	+	1	16
+	+	13	3
+	+	1	9
+	+	14	0
+	+	13	0
+	+	12	3
+	+	13	13
+	+	12	0
+	+	13	12
+	+	5	21
+	+	6	27
+	+	5	27
+	+	13	47
 
 > ~/stockRNN2.py
-	"	1	23
+	"	141	0
 	^	9	24
 	.	9	23
 	+	33	38
@@ -494,16 +668,28 @@ $
 	+	80	4
 	+	74	4
 
-> ~/Merge Data Tools/data-generator.R
-	"	131	2
-	^	32	57
-	.	32	56
-	+	32	56
-
 > ~/directedStudy/program1 without data/organize_data.py
-	"	84	4
+	"	132	0
 
-> ~/data/readSQLite.py
+> ~/directedStudy/tensorflow-mnist-tutorial/mnist_softmax.py
+	"	145	0
+
+> ~/Merge Data Tools/monthly-momentum-data-generator.R
+	"	110	13
+	^	32	74
+	.	32	73
+	+	87	2
+	+	131	2
+	+	280	2
+	+	18	35
+	+	18	34
+	+	32	93
+	+	32	73
+
+> ~/directedStudy/program1 without data/monthlyNN.py
+	"	1	0
+
+> ~/jandres/IndividualStudy/program1/p1.pyc
 	"	1	0
 
 > ~/readSQLite.py
@@ -538,81 +724,45 @@ $
 	+	25	4
 	+	18	9
 
-> ~/readSQLite.R
-	"	1	0
+> ~/Merge Data Tools/data-generator.R
+	"	285	1
+	^	32	57
+	.	32	56
+	+	32	56
+
+> ~/Output/jandres_job.e3706
+	"	42	0
 
 > ~/Output/jandres_job.e3474
 	"	42	0
 
-> ~/Output/jandres_job.e3473
-	"	1	0
+> ~/Output/jandres_job.e3705
+	"	43	0
 
-> ~/Merge Data Tools/mergeFiles.sh
-	"	13	13
-	^	13	14
-	.	13	13
-	+	13	0
-	+	9	26
-	+	4	19
-	+	5	14
-	+	10	9
-	+	13	27
-	+	10	9
-	+	13	4
-	+	13	28
-	+	1	16
-	+	13	3
-	+	1	9
-	+	14	0
-	+	13	0
-	+	12	3
-	+	13	13
-	+	12	0
-	+	13	12
-	+	5	21
-	+	6	27
-	+	5	27
-	+	13	13
-
-> ~/Output/jandres_job.o3472
-	"	1	0
-
-> ~/Output/jandres_job.e3472
-	"	1	0
-
-> ~/Output/jandres_job.
-	"	1	0
-
-> ~/Merge Data Tools/indclass/._src
-	"	1	0
-
-> ~/Merge Data Tools/wrdsr/R/wrds-connection.R
-	"	1	0
-
-> ~/Merge Data Tools/indclass/R/indclass.r
-	"	1	0
-
-> ~/directedStudy/Merge Data Tools/mergeFiles.sh
-	"	10	3
-	^	10	4
-	.	10	3
+> ~/.gitignore
+	"	8	7
+	^	8	8
+	.	8	7
+	+	1	5
+	+	11	53
+	+	11	36
+	+	11	0
+	+	11	0
+	+	11	0
+	+	11	0
+	+	1	26
+	+	7	30
+	+	11	0
+	+	12	50
+	+	11	0
+	+	3	0
+	+	4	0
+	+	5	22
 	+	8	0
-	+	2	0
-	+	11	17
-	+	5	14
-	+	11	28
-	+	10	3
+	+	8	7
 
-> ~/jandres/IndividualStudy/program1/organize_data.py
-	"	132	0
+> ~/data/readSQLite.py
+	"	1	0
 
-> ~/directedStudy/Merge Data Tools/data-generator.R
-	"	280	2
-	^	280	3
-	.	280	2
-	+	18	34
-	+	87	2
-	+	131	2
-	+	85	4
-	+	84	54
-	+	280	2
+> ~/readSQLite.R
+	"	1	0

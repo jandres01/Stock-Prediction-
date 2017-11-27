@@ -1,350 +1,3 @@
-python --version
-python sConnect.py
-ls
-python sConnect.py
-ls
-python sConnect.py
-python
-cd IndividualStudy/program1/MergeFiles/
-ls
-cd
-ls
-vi sConnect.py 
-python sConnect.py 
-vi sConnect.py 
-python sConnect.py 
-vi sConnect.py 
-cd IndividualStudy/program1/MergeFiles/
-cd
-ls
-cd IndividualStudy/program1/MergeFiles/
-ls
-vi data-generator.R 
-cd IndividualStudy/program1/MergeFiles/
-ls
-vi jandres_testing_job.e2928
-vi data-generator.R 
-vi jandres_testing_job.e2876
-vi data-generator.R 
-ls
-qstat
-cd
-ls
-vi sConnect.py 
-cd IndividualStudy/program1/MergeFiles/
-vi data-generator.R 
-cd
-cd IndividualStudy/program1/MergeFiles/
-vi data-generator.R 
-cd
-ls
-vi sConnect.py 
-cd IndividualStudy/program1/MergeFiles/
-vi data-generator.R 
-ls
-cd
-s
-ls
-vi rnn.py
-vi readData.R 
-rm -rf readData.R 
-vi organize_data.py
-vi sConnect.py 
-vi organize_data.py
-vi sConnect.py 
-vi organize_data.py
-vi sConnect.py 
-vi organize_data.py
-vi sConnect.py 
-vi organize_data.py
-vi sConnect.py 
-vi organize_data.py
-ls
-vi testingRnn.py 
-vi rnn.py
-vi testingRnn.py 
-vi stockRNN.py 
-vi organize_data.py
-cd IndividualStudy/program1/MergeFiles/
-vi data-generator.R 
-ls
-sqlite3 financial-data.sqlite 
-cd
-ls
-vi organize_data.py
-vi stockRNN.py 
-vi organize_data.py
-vi stockRNN.py 
-vi organize_data.py
-vi stockRNN.py 
-vi organize_data.py
-ls
-vi sConnect.py 
-vi stockRNN.py 
-vi organize_data.py
-:wq
-vi stockRNN.py 
-vi organize_data.py
-ls
-python
-vi stockRNN.py 
-python stockRNN.py 
-cd IndividualStudy/program1/MergeFiles/
-ls
-vi data-generator.R 
-python
-cd
-ls
-cd IndividualStudy/program1/MergeFiles/
-vi data-generator.R 
-cd
-ls
-vi sConnect.py 
-vi stockRNN.py 
-python showData.py
-vi stockRNN.py 
-python showData.py
-ls
-cd
-cd IndividualStudy/program1/
-ls
-vi organize_data.py
-python showData.py
-cd
-python showData.py
-cd IndividualStudy/program1/
-ls
-vi organize_data.py
-python showData.py
-cd
-python showData.py
-vi stockRNN.py 
-python showData.py
-ls
-vi stockRNN.py 
-ls
-vi showData.py
-vi organize_data.py
-vi sConnect.py 
-python sConnect.py 
-:wq
-vi sConnect.py 
-ls
-vi stockRNN.py 
-vi sConnect.py 
-python sConnect.py 
-:wq
-vi sConnect.py 
-vi stockRNN.py 
-vi organize_data.py
-vi stockRNN.py 
-vi organize_data.py
-vi sConnect.py 
-vi showData.py
-vi sConnect.py 
-vi stockRNN.py 
-vi sConnect.py 
-vi showData.py
-vi organize_data.py
-vi stockRNN.py 
-vi showData.py
-vi organize_data.py
-vi showData.py
-vi organize_data.py
-vi showData.py
-vi organize_data.py
-vi showData.py
-python showData.py
-python organize_data.py
-python sConnect.py 
-ls
-python sConnect.py 
-R
-python
-ls
-vi showData.py
-vi sConnect.py 
-vi stockRNN.py 
-vi organize_data.py
-vi showData.py
-vi organize_data.py
-vi showData.py
-vi organize_data.py
-vi showData.py
-vi organize_data.py
-vi showData.py
-vi organize_data.py
-vi showData.py
-ls
-vi sConnect.py 
-cd IndividualStudy/program1/MergeFiles/
-ls
-vi data-generator.R 
-cd
-ls
-vi showData.py
-vi organize_data.py
-python organize_data.py
-python
-python showData.py
-vi stockRNN.py 
-python
-python stockRNN.py 
-:197
-python stockRNN.py 
-ls
-vi organize_data.py
-vi showData.py
-vi organize_data.py
-vi showData.py
-vi organize_data.py
-vi showData.py
-vi stockRNN.py 
-vi testR.R
-vi stockRNN.py 
-vi IndividualStudy/program1/MergeFiles/data-generator.R 
-vi stockRNN.py 
-cd IndividualStudy/program1/MergeFiles/
-ls
-rm -rf jandres_testing_job.*
-ls
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-cd
-ls
-vi stockRNN.py 
-python stockRNN.py 
-ls
-cd IndividualStudy/
-cd program1/MergeFiles/
-ls
-vi jandres_testing_job.e3179 
-ls
-vi partialData.R 
-vi testR.sh 
-vi libraryCheck.r 
-rm -rf libraryCheck.r 
-ls
-cd
-ls
-vi stockRNN.py 
-ls
-vi stockRNN.py 
-python showData.py
-python
-v organize_data.py
-vi organize_data.py
-vi showData.py
-vi stockRNN.py 
-vi showData.py
-vi organize_data.py
-vi showData.py
-vi organize_data.py
-vi showData.py
-python stockRNN
-python stockRNN.py 
-python
-exit() quit()
-python
-ls
-vi organize_data.py
-vi showData.py
-vi stockRNN.py 
-vi showData.py
-vi organize_data.py
-vi showData.py
-vi stockRNN.py 
-vi showData.py
-python showData.py
-ls
-vi showData.py
-vi stockRNN
-vi stockRNN.py 
-vi showData.py
-vi stockRNN.py 
-vi showData.py
-vi organize_data.py
-vi showData.py
-vi stockRNN.py 
-vi stockRNN
-vi stockRNN.py 
-python
-ls
-vi organize_data.py
-vi showData.py
-ls
-ls
-vi stockRNN.py 
-vi showData.py
-vi organize_data.py
-vi showData.py
-ls
-vi showData.py
-ls
-python
-ls
-vi showData.py
-ls
-cd IndividualStudy/program1/MergeFiles/
-ls
-vi mergeFiles.sh 
-cd
-ls
-vi test.sh 
-qsub test.sh 
-ls
-qstat
-ls
-vi jandres_testing_job.e3281 
-cd IndividualStudy/program1/MergeFiles/
-l
-vi data-generator.R 
-ls
-cd
-ls
-rm -rf jandres_testing_job.*
-ls
-vi testR.R 
-vi test.sh 
-vi showData.py
-qsub test.sh 
-ls
-qstat
-ls
-vi jandres_testing_job.o3282 
-vi jandres_testing_job.e3282 
-ls
-vi test.sh
-ls
-vi showData.py
-ls
-python
-python stockRNN.py 
-ls
-vi jandres_testing_job.
-ls
-rm -rf jandres_testing_job.
-rm -rf jandres_testing_job.*
-python showData.py
-vi stockRNN.py 
-python stockRNN.py
-vi showData.py
-ls
-vi showData.py
-vi
-vi showData.py
-vi stockRNN.py 
-ls
-vi showData.py
-vi stockRNN
-vi stockRNN.py 
-ls
-vi organize_data.py
-vi showData.py
-vi stockRNN.py 
-ls
-python
-python stockRNN.py
 ls
 cd IndividualStudy/
 ls
@@ -998,3 +651,350 @@ ls
 python
 ls
 python stockRNN2.py 
+cd data/
+ls
+vi readSQLite.py
+cp financial-data.sqlite finc-data.py
+ls
+cd ..
+ls
+cd directedStudy/program1\ without\ data/
+ls
+vi organize_data.py
+cd
+ls
+vi stockRNN2.py 
+python
+ls
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi organize_data2.py
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+ls
+vi monthlyNN.py 
+ls
+cd Merge\ Data\ Tools/
+ls
+cd /users/jandres/
+ls
+cd Documents/
+ls
+mv monthly-momentum-data-generator.R ~
+ls
+cd
+ls
+mv monthly-momentum-data-generator.R Merge\ Data\ Tools/
+ls
+cd Merge\ Data\ Tools/
+ls
+cd ~
+ls
+git init
+git status
+git add -A
+git reset
+.gitignore -- /data/
+git status
+ls
+.gitignore data/
+git status
+.gitignore Merge\ Data\ Tools/data-generator.R 
+.gitignore Merge\ Data\ Tools/monthly-momentum-data-generator.R 
+git add -A
+git status
+vi .gitignore
+git status
+vi .gitignore
+git status
+git status Merge\ Data\ Tools/
+:wq
+vi .gitignore
+vi i
+vi .gitignore
+git status Merge\ Data\ Tools/
+git status 
+vi .gitignore
+git status Merge\ Data\ Tools/
+vi .gitignore
+git status
+vi .gitignore
+git status Merge\ Data\ Tools/
+vi .gitignore
+git status Merge\ Data\ Tools/
+vi .gitignore
+git status Merge\ Data\ Tools/
+git status
+git add -A
+git commit -m "First push"
+git remote add origin https://github.com/jandres01/Deep-Learning-Stock-Prediction.git
+git push -u origin master
+git remote add origin https://github.com/jandres01/Deep-Learning-Stock-Prediction.git
+git add -A
+git commit -m "First push"
+git push origin master
+git init
+git remote add origin https://github.com/jandres01/Deep-Learning-Stock-Prediction.git
+git add .
+git commit -m "First push"
+git push -u origin master
+git init
+git add .
+git commit -m "First push"
+git push -u origin master
+git add .
+git commit -m "First push"
+git push -u origin master
+ls
+git remote add origin https://github.com/jandres01/Deep-Learning-Stock-Prediction.git
+git push -u origin master
+git reset
+git remote add origin https://github.com/jandres01/Deep-Learning-Stock-Prediction.git
+git push -u origin master
+git add .
+git commit -m "First push"
+git config --global user.email "you@example.com"
+git config --global user.email "jandres@trinity.edu"
+git config --global user.name "Andres"
+git commit -m "First push"
+git push -u origin master
+git reset
+ls
+cd directedStudy/
+ls
+cd
+vi .gitignore 
+git rm --cached jandres/IndividualStudy/program1/data/return-data.csv
+git init
+git status
+git add .
+git commit -m "First push"
+git push -u origin master
+ls
+vi .gitignore 
+git remote add origin https://github.com/jandres01/Deep-Learning-Stock-Prediction.git
+git remote add origin https://github.com/jandres01/Stock-Prediction-.git
+git remote set-url origin https://github.com/jandres01/Stock-Prediction-.git
+git init
+git remote set-url origin https://github.com/jandres01/Stock-Prediction-.git
+git status
+git rm --cached directedStudy/neural-networks-and-deep-learning 
+git rm --cached directedStudy/tensorflow-mnist-tutorial
+git status
+vi .gitignore 
+git status
+git add .
+git commit -m "First Push"
+git push -u origin master
+git commit --amend
+git commit --amend --no-edit
+git rebase -i HEAD~3
+git log --pretty=format:"%h %s" HEAD~3..HEAD
+git log
+git log --pretty=format:"%h %s" HEAD~2..HEAD
+git rebase -i HEAD~2
+git filter-branch --tree-filter 'rm -f  jandres/IndividualStudy/program1/data/return-data.csv' HEAD
+git status
+git rebase -i HEAD~2
+git filter-branch --tree-filter 'rm -f  jandres/IndividualStudy/program1/data/return-data.csv' 
+git init
+git remote add origin https://github.com/jandres01/Stock-Prediction-.git
+git remote set-url origin https://github.com/jandres01/Stock-Prediction-.git
+git status
+git add .
+git commit -m "fst push"
+git push -u origin master
+vi .gitignore 
+git filter-branch --tree-filter 'rm -f  jandres' 
+ls
+cd jandres/
+ls
+cd IndividualStudy/
+ls
+cd
+ls
+cd Merge\ Data\ Tools/
+ls
+vi mergeFiles.sh 
+qsub mergeFiles.sh 
+ls
+vi monthly-momentum-data-generator.R 
+qdel 3705
+qstat
+cd ..
+l
+ls
+cd Output/
+ls
+vi jandres_job.e3705 
+cd
+cd Merge\ Data\ Tools/
+ls
+vi monthly-momentum-data-generator.R 
+vi data-generator.R 
+vi monthly-momentum-data-generator.R 
+qsub mergeFiles.sh 
+qstat
+ls
+cd
+ls
+cd data/
+ls
+cd ..
+ls
+vi Output/
+cd Output/
+ls
+vi jandres_job.e3706
+vi jandres_job.e3474 
+ls
+cd ..
+ls
+vi stockRNN2.py 
+cd Merge\ Data\ Tools/
+ls
+vi data-generator.R 
+cd ..
+cd Output/
+ls
+vi jandres_job.e3706
+cd ..
+cd Merge\ Data\ Tools/
+vi data-generator.R 
+ls
+cd ..
+ld
+ls
+vi organize_data2.py
+ls
+vi monthly_organize_data.py 
+cd
+cd data/
+ls
+cd
+ls
+vi monthly_organize_data.py 
+vi readSQLite.py 
+mv readSQLite.py Output/
+ls
+cd jandres/
+ls
+cd IndividualStudy/
+ls
+cd program1/
+ls
+vi p1.pyc 
+cd
+cd directedStudy/
+ls
+cd program1\ without\ data/
+ls
+vi p1.py
+vi organize_data.py
+vi p1.py
+ls
+vi monthlyNN.py ~
+mv monthlyNN.py ~
+ls
+cd
+ls
+vi monthlyNN.py 
+ls
+vi stockRNN2.py 
+vi monthlyNN.py 
+python monthlyNN.py 
+ls
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+sed 's/training/testing/g' monthly_organize_data.py
+ls
+vi monthly_organize_data.py
+ls
+python monthlyNN.py 
+vi monthlyNN.py 
+python monthlyNN.py 
+vi monthlyNN.py 
+vi organize_data2.py 
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+ls
+cd Merge\ Data\ Tools/
+ls
+vi data-generator.R 
+cd
+ls
+vi organize_data2.py
+vi stockRNN2.py 
+ls
+cd Merge\ Data\ Tools/
+ls
+vi monthly-momentum-data-generator.R 
+cd
+ls
+vi directedStudy/program1\ without\ data/
+cd directedStudy/program1\ without\ data/
+ls
+vi p1.py
+vi organize_data.py
+cd
+ls
+vi stockRNN2.py 
+cd directedStudy/program1\ without\ data/
+ls
+vi p1.py
+vi organize_data.py
+cd ..
+ls
+cd tensorflow-mnist-tutorial/
+ls
+vi mnist_softmax.py
+cd
+cd directedStudy/
+cd program1\ without\ data/
+vi organize_data.py
+vi p1.py
+ls
+cd
+ls
+vi organize_data2.py
+vi stockRNN2.py 
+vi organize_data2.py
+vi stockRNN2.py 
+ls
+python
+pyhton
+python
+ls
+cd Merge\ Data\ Tools/
+ls
+vi mergeFiles.sh 
+exit
