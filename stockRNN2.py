@@ -105,7 +105,7 @@ def plot(loss_list, predictions_series, batchX, batchY):
 with tf.Session() as sess:
     sess.run(tf.initialize_all_variables())
     plt.ion()
-    plt.figure()
+    #plt.figure()
     plt.show()
     loss_list = []
 

@@ -20,6 +20,8 @@ Y = tf.nn.softmax(tf.matmul(H2, W3) + b3)
 
 Y_ = tf.placeholder(tf.float32,[None,10])
 
+#tf.argmex returns index with largest value across axes of tensor - categorical comparison
+#Validate if largest value for both tensors are equal
 is_correct = tf.equal(tf.argmax(Y,1),tf.argmax(Y_,1))
 
 cross_entropy = tf.losses.log_loss(labels = Y_, predictions = Y)

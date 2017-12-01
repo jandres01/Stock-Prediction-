@@ -9,7 +9,6 @@
 #PBS -M jandres@trinity.edu
 #PBS -m ae
 
-cd Merge\ Data\ Tools/
-R --vanilla < momentum.R #data-generator.R
+python /home/jandres/momentumNN.py &> /home/jandres/data/momentum_avgReturns.txt
 
 

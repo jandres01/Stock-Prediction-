@@ -1,298 +1,3 @@
-ls
-cd IndividualStudy/
-ls
-cd program1/data/
-ls
-ls -al
-ls -al return-data.csv 
-cp return-data.csv dataBigData.csv
-mv dataBigData.csv /users/jandres/CSCI3395/data/
-ls
-ls
-cp financial-data.sqlite dataFinalProject.sqlite
-ls -al
-ls
-python
-ls
-python stockRNN.py
-python
-ls
-cd IndividualStudy/program1/
-ls
-cd MergeFiles/
-ls
-vi data-generator.R 
-ls
-vi jandres_testing_job.e3179 
-vi data-generator.R 
-ls
-vi jandres_testing_job.e3179 
-rm -rf financial-data.sqlite 
-qsub data-generator.R 
-ls
-rm -rf data-generator.R.*
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-ls
-vi data-generator.R 
-ls
-cd
-vi stockRNN.py 
-vi showData.py
-ls
-vi stockRNN1D.py 
-vi testingRnn.py 
-vi stockRNN.py 
-python stockRNN.py 
-ls
-vi stockRNN.py 
-vi showData.py
-vi stockRNN.py 
-ls
-rm -rf :\:w 
-ls
-vi stockRNN.py 
-ls
-pythoin
-python
-ls
-python stockRNN.py 
-ls
-vi stockRNN.py 
-lls
-ls
-cd IndividualStudy/program1/MergeFiles/
-vi data-generator.R 
-cd
-vi stockRNN
-vi stockRNN.py 
-cd IndividualStudy/program1/MergeFiles/
-ls
-vi jandres_testing_job.e3
-vi jandres_testing_job.e3300 
-cd
-ls
-vi plotTest.py
-ls
-vi plotTest.py 
-vi stockRNN.py 
-vi plotTest.py 
-ls
-vi stockRNN.py 
-vi plotTest.py 
-python
-python plotTest.py 
-ls
-vi stockRNN.py 
-python
-ls
-vi stockRNN
-vi stockRNN.py 
-qstat
-a = np.zeros((2, 3, 4))
-from __future__ import print_function, division
-from mpl_toolkits.mplot3d import Axes3D
-import numpy as np
-python
-python
-python
-ls
-vi stockRNN.py 
-ls
-vi test.sh 
-qsub test.sh 
-vi stockRNN.py 
-qsub test.sh 
-vi stockRNN.py
-ls
-vi jandres_testing_job.e3410
-vi stockRNN.py 
-qsub test.sh 
-vi stockRNN.py 
-qsub test.sh 
-vi stockRNN.py 
-qsub test.sh 
-vi stockRNN.py 
-qstat
-ls
-vi jandres_testing_job.e3413 
-vi stockRNN.py 
-rm -rf jandres_testing_job.*
-vi stockRNN.py 
-qsub test.sh 
-vi stockRNN.py 
-qsub test.sh 
-ls
-vi jandres_testing_job.e3416
-vi stockRNN.py 
-qsub test.sh 
-rm -rf jandres_testing_job.*
-ls
-qstat
-vi jandres_testing_job.e3418 
-vi stockRNN.py 
-vi jandres_testing_job.e3418 
-vi stockRNN.py 
-qsub test.sh 
-qstat
-ls
-qstat
-ls
-rm -rf * jandres_testing_job.*
-qstat
-qdel 3418
-qstat
-vi stockRNN.py 
-vi stockRNN.py
-ls
-cd /users/jandres/
-ls
-cd
-ssh -y jandres@leviosa.cs.trinity.edu
-ls
-vi IndividualStudy/program1/p1.py
-ls
-python stockRNN.py 
-ls
-vi stockRNN.py 
-ls
-vi stockRNN.py 
-vi showData.py
-vi stockRNN.py 
-vi showData.py
-vi stockRNN.py
-ls
-vi stockRNN.py 
-ls
-vi jandres_testing_job.e3411
-vi test.sh 
-rm -rf jandres_testing_job.*
-ls
-python
-cd /users/jandres
-ls
-cd Desktop/
-ls
-cd S17\ Individual\ Study/
-ls
-cd program1\ without\ data/
-ls
-:q
-cd ..
-cd Merge\ Data\ Tools/
-ls
-cd ..
-ls
-cd ..
-ls
-cp S17\ Individual\ Study/ DirectedStudy
-cp S17\ Individual\ Study/ directedStudy
-cp -r S17\ Individual\ Study/ directedStudy
-ls
-mv directedStudy/ ~
-ls
-cd
-ls
-vi jandres_testing_job.e3419 
-rm -rf jandres_testing_job.*
-ls
-vi stockRNN2.py
-cd
-ls
-cd
-;s
-ls
-quota
-ls
-qstat
-ls
-cd directedStudy/
-ls
-cd Merge\ Data\ Tools/
-ls
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-ls
-qstat
-ls
-vi mergeFiles.sh 
-ls
-cd
-ls
-cd directedStudy/
-ls
-cd Merge\ Data\ Tools/
-ls
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-ls
-qstat
-qdel 3424
-ls
-ls -al
-vi mergeFiles.sh 
-cd ..
-ls
-cd Merge\ Data\ Tools/ ~
-ls
-cd
-ls
-cd Merge\ Data\ Tools/
-cd directedStudy/Merge\ Data\ Tools/
-ls
-cd ..
-mv Merge\ Data\ Tools/ ~
-ls
-cd
-ls
-cd Merge\ Data\ Tools/
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-qstat
-ls
-vi mergeFiles.sh 
-qstat
-ls
-qsub mergeFiles.sh 
-qstat
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-qstat
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-qstat
-qdel 3427
-qstat
-qdel 3428
-qstat
-ls
-qstat
- qstat
-qstat
-ls
-qstat
-ls
-cd directedStudy/
-ls
-cd Merge\ Data\ Tools/
-ls
-vi mergeFiles.sh
-;s
-ls
-vi data-generator.R 
-ls
-vi mergeFiles.sh 
-ls
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-ls
-qstat
-ls
-cd ..
-ls
-cd program1\ without\ data/
-ls
-vi organize_data.py
 cp organize_data.py organize_data2.py
 mv organize_data2 ~
 mv organize_data2.py ~
@@ -998,3 +703,298 @@ cd Merge\ Data\ Tools/
 ls
 vi mergeFiles.sh 
 exit
+ls
+vi monthly
+vi monthly_organize_data.py
+ls
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi monthlyNN.py 
+ls
+cd directedStudy/
+ls
+cd program1\ without\ data/
+ls
+vi p1.py
+cd
+ls
+vi monthlyNN.py 
+l
+ls
+git status
+git commit -m "monthly files"
+commit -m "monthly files"
+git status
+git add .
+git commit -m "monthly files"
+git push origin master
+vi m
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi directedStudy/program1\ without\ data/p1.py
+vi directedStudy/program1\ without\ data/organize_data.py
+vi directedStudy/program1\ without\ data/p1.py
+vi monthly_organize_data.py
+vi monthlyNN.py 
+ls
+cd directedStudy/program1\ without\ data/
+ls
+vi p1.py
+vi organize_data.py
+vi p1.py
+vi organize_data.py
+vi p1.py
+python monthlyNN.py 
+ls
+cd directedStudy/
+ls
+cd program1\ without\ data/
+ls
+vi p1.py
+cd
+ls
+python monthlyNN.py 
+scala
+python monthlyNN.py 
+ls
+cd data/
+ls
+cd
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd users/jandres
+ls
+cd
+ls
+cd data/
+ls
+ls -al
+ls
+cd
+ls
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi monthlyNN.py 
+ls
+python
+ls
+vi monthly_organize_data.py
+ls
+cd directedStudy/program1\ without\ data/
+ls
+vi organize_data.py
+vi p1.py
+vi organize_data.py
+vi p1.py
+cd
+ls
+vi monthly_organize_data.py
+cd directedStudy/program1\ without\ data/
+vi p1.py
+vi organize_data.py
+cd
+ls
+vi monthly_organize_data.py
+ls
+python
+ls
+vi monthlyNN.py 
+ls
+vi monthlyNN.py 
+ls
+cd directedStudy/program1\ without\ data/
+ls
+vi p1.py
+vi organize_data.py
+python
+ls
+python
+cd
+python
+ls
+vi monthly_organize_data.py
+cp monthly_organize_data.py test_org.py
+vi test_org.py 
+vi monthly
+vi test_org.py 
+vi monthlyNN.py 
+vi test_org.py 
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi test_org.py 
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi test_org.py 
+vi monthly_organize_data.py
+vi test_org.py 
+vi monthly_organize_data.py
+vi test_org.py 
+vi monthly_organize_data.py
+vi test_org.py 
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi test_org.py 
+vi monthly_organize_data.py
+ls
+vi directedStudy/program1\ without\ data/
+vi directedStudy/program1\ without\ data/organize_data.py
+vi directedStudy/program1\ without\ data/p1.py
+vi directedStudy/program1\ without\ data/organize_data.py
+vi directedStudy/program1\ without\ data/p1.py
+ls
+vi monthly_organize_data.py
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+ls
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+exit
+ls
+vi monthlyNN.py 
+ls
+vi monthlyNN.py 
+ls
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi monthlyNN.py 
+top
+:q
+vi monthlyNN.py 
+cd directedStudy/program1\ without\ data/
+vi p1.py
+:q
+ls
+cd
+cd directedStudy/program1\ without\ data/
+vi p1.py
+ls
+cd
+ls
+vi stockRNN2.py 
+vi monthly_organize_data.py
+vi stockRNN2.py 
+vi monthly_organize_data.py
+ls
+python stockRNN2.py 
+vi stockRNN2.py 
+exit
+python monthlyNN.py 
+ls
+cd Merge\ Data\ Tools/
+ls
+vi momentum.R 
+qsub mergeFiles.sh 
+vi monthlyNN.py 
+python monthly_organize_data.py
+vi monthly_organize_data.py
+vi monthlyNN.py 
+ls
+less data/monthly-momentum-financial-data.sqlite 
+vi monthly_organize_data.py
+ls
+cd Merge\ Data\ Tools/
+ls
+vi monthly-momentum-data-generator.R 
+ls
+cd ..
+ls
+cd data/
+ls
+cd 
+cd Merge\ Data\ Tools/
+ls
+vi momentum.R
+vi monthly-momentum-data-generator.R 
+vi momentum.R
+vi mergeFiles.sh 
+qsub mergeFiles.sh 
+ls
+cd
+ls
+cd Output/
+ls
+vi jandres_job.e3796
+ls
+vi readSQLite.py 
+rm -rf *
+ls
+cd ..
+ls
+qstat
+ls
+vi stockRNN2.py 
+python stockRNN2.py 
+ls
+vi directedStudy/program1\ without\ data/organize_data.py
+ls
+vi momentumNN.py
+ls
+vi monthlyNN.py 
+vi momentumNN.py
+vi monthlyNN.py 
+cd Merge\ Data\ Tools/
+ls
+vi momentum.R 
+cd
+ls
+vi monthlyNN.py 
+vi organize_data2.py
+vi monthlyNN.py 
+python
+ls
+vi monthly_organize_data.py
+vi monthlyNN.py 
+ls
+vi monthly
+vi monthlyNN.py 
+vi monthly_organize_data.py
+vi momentumNN.py
+vi monthly_organize_data.py
+vi momentumNN.py
+vi monthlyNN.py
+ls
+vi momentumNN.py
+ls
+cd Merge\ Data\ Tools/
+ls
+vi momentum.R 
+ls
+cd
+ls
+vi organize_data2.py
+vi stockRNN2.py 
+vi momentumNN.py 
+vi monthlyNN.py 
+vi momentumNN.py 
+vi monthlyNN.py 
+vi momentumNN.py 
+vi monthlyNN.py 
+vi momentumNN.py 
+ls
+python
+ls
+vi monthly_organize_data.py
+vi monthlyNN.py 
+python
+ls

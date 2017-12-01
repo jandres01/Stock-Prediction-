@@ -72,8 +72,13 @@ def select_all_tasks(conn):
     #Show column names
     data = cur.execute("SELECT * FROM crsp LIMIT 10")
     print(list(map(lambda x: x[0], data.description))) 
+
+    #Convert date to Unix for filtering in query for testing
+    #s = "2012-01-01"
+    #time.mktime(datetime.datetime.strptime(s,"%Y-%m-%d").timetuple())
+
     #grab Data
-    dfData = pd.read_sql_query("select * from crsp",conn)
+    dfData = pd.read_sql_query("select * from crsp LIMIT 100",conn)
     #drop all rows with NaN & convert date
     dfData.dropna(axis = 0, how='any')
     dfData['date'] = pd.to_datetime(dfData['date'],unit='d')
@@ -83,11 +88,34 @@ def read_data():
     database = '/home/jandres/data/monthly-momentum-financial-data.sqlite'
     conn = create_connection(database)
     data = select_all_tasks(conn)
-  
+
+    return data
+
+#
+
+def generateData():
+
+    data = read_data()
     #Split into train and validation sets
-    testing = data[data['date'] > "2014-01-01"]
+    mnist = data[data['date'] > "2014-01-01"] #testing
     training = data[data['date']<= "2014-01-01"]
 
-    return testing
+    #Note scaling has to be different for training & testing data because in real life we don't have information about future observations at the time of forecasting
+    mnist[['price_max','return_max','volume_max','range_max']]= mnist.groupby('permno')['price','return','volume','range'].transform('max')
+    mnist['price_norm'] = mnist['price']/(mnist['price_max'] * 1.25)
+    mnist['return_norm'] = mnist['return']/(mnist['return_max'] * 1.25)
+    mnist['volume_norm'] = mnist['volume']/(mnist['volume_max'] * 1.25)
+    mnist['range_norm'] = mnist['range']/(mnist['range_max'] * 1.25)
+    mnist['permnoCount'] = mnist.groupby(['permno'])['permno'].transform('count')
+    mnist = mnist[(mnist.permnoCount == 756)]
+    dataY = mnist.pivot(index='permno',columns='date',values='price_norm')
+    dataX = np.empty((2221,756,4))
+    dataX[:,:,0] = pd.pivot_table(mnist,values='price_norm',index='permno',columns='date')
+    dataX[:,:,1] = pd.pivot_table(mnist,values='return_norm',index='permno',columns='date')
+    dataX[:,:,2] = pd.pivot_table(mnist,values='volume_norm',index='permno',columns='date')
+    dataX[:,:,3] = pd.pivot_table(mnist,values='range_norm',index='permno',columns='date')
+    y = dataY.values
+    x = dataX
+    return TrainingDataSet(x,y)
 
 
