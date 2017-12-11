@@ -1,412 +1,3 @@
-cp organize_data.py organize_data2.py
-mv organize_data2 ~
-mv organize_data2.py ~
-cd
-ls
-vi organize_data2.py
-qstat
-ls
-qstat
-cd directedStudy/
-ls
-cd Merge\ Data\ Tools/
-qstat
-ls
-cd
-ls
-cd ~/users/jandres
-cd ~/users/jandres/
-cd /users/jandres
-ls
-mv jandres.tar Desktop/
-ls
-cd Desktop/S17\ Individual\ Study/
-cd ..
-ls
-cd
-cd /users/jandres/CSCI3395/
-ls
-cd data/
-ls
-rm -rf dataBigData.csv 
-ls
-quota
-cd ..
-cd Desktop/
-ls
-mv jandres ~
-cd
-ls
-cd jandres/
-ls
-cd IndividualStudy/
-ls
-rm - rf neural-networks-and-deep-learning/
-rm -rf neural-networks-and-deep-learning/
-rm -rf tensorflow-mnist-tutorial/
-ls
-cd program1/
-ls
-vi organize_data.py 
-cd data/
-ls
-qstat
-ls
-qstat
-ls
-cd Merge\ Data\ Tools/
-ls
-vi mergeFiles.sh 
-ls
-cd Merge\ Data\ Tools/
-ls
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-qstat
-qdel 3421
-qdel 3429
-ls
-vi mergeFiles.sh 
-ls
-vi mergeFiles.sh 
-R --vanilla
-ls
-qsub mergeFiles.sh 
-ls
-qstat
-vi mergeFiles.sh 
-R data-generator.R 
-vi mergeFiles.sh 
-qsub data-generator.R 
-qsub mergeFiles.sh 
-qstat
-ls
-qstat
-ls
-vi mergeFiles.sh 
-cd ~/Merge\ Data\ Tools/
-ls
-vi mergeFiles.sh 
-ls
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-qstat
-ls
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-ls
-qstat
-vi mergeFiles.sh 
-cd ..
-cd Merge\ Data\ Tools/
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-ls -al
-ls
-R
-cd
-R
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.3
-ls
-cd Merge\ Data\ Tools/
-ls
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.3 indclass
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 indclass
-cd
-ls
-cd R/
-ls
-cd x86_64-redhat-linux-gnu-library/
-ls
-cd
-cd Merge\ Data\ Tools/
-ls
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 indclass
-ls
-vi indclass/
-cd indclass/
-ls
-cd R
-ls
-vi indclass.r 
-ls
-cd
-ls
-cd Merge\ Data\ Tools/
-ls
-mv indclass/ ..
-cd ..
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 indclass
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 indclass/
-ls
-mv indclass/ Merge\ Data\ Tools/
-ls
-vi Merge\ Data\ Tools/
-cd Merge\ Data\ Tools/
-l
-ls
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 wrdsr/
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 indclass/
-ls
-cd Merge\ Data\ Tools/
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 indclass/
-ls
-cd wrdsr/
-ls
-cd R/
-ls
-vi wrds-connection.R 
-ls
-cd Output/
-ls
-vi jandres_job.
-vi jandres_job.e3472 
-vi jandres_job.o3472 
-ls
-vi jandres_job.e3473
-ls
-cd
-cd Output/
-vi jandres_job.e3473
-cd ..
-mkdir data
-ls
-cd Output/
-rm -rf jandres_job.*
-ls
-ls
-R
-ls
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.3 indclass
-ls
-cd Merge\ Data\ Tools/
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.3 indclass
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 indclass
-ls
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 wrdsr/
-ls
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 indclass/
-ls
-cd indclass/
-ls
-ls -al
-vim ._src 
-rm -rf ._* 
-ls
-ls -al
-cd R/
-ls
-ls -al
-cd ..
-cd src/
-ls al
-ls -al
-rm -rf ._*
-ls
-ls -al
-cd ..
-cd R/
-ls -al
-rm -rf ._*
-ls
-ls -al
-cd ..
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.3 indclass
-cd ..
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.3 indclass
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 indclass
-cd indclass/
-ls
-ls -al
-cd src/
-ls -al
-rm -rf indclass.so 
-cd ..
- cd ..
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 indclass
-cd indclass/src/
-ls
-ls -al
-rm -rf ff_38.o 
-rm -rf ff38.o 
-rm -rf naics.o 
-rm -rf RcppExports.o 
-ls -al
-cd ..
-cd R/
-ls -al
-cd ..
-ls -al
-cd ..
-R CMD INSTALL --no-multiarch --with-keepsource -l /home/jandres/R/x86_64-redhat-linux-gnu-library/3.4 indclass
-ls
-cd ..
-ls
-cd Merge\ Data\ Tools/
-ls
-qsub mergeFiles.sh 
-ls
-qstat
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-qstat
-ls
-vi mergeFiles.sh 
-qsub mergeFiles.sh 
-qstat
-ls
-vi mergeFiles.sh 
-ls
-vi mergeFiles.sh 
-ls
-qsub mergeFiles.sh 
-qstat
-ls
-vi mergeFiles.sh 
-cd
-ls
-cd /home/jandres/
-ls
-mkdir Output
-ls
-cd Merge\ Data\ Tools/
-ls
-qstat
-qsub mergeFiles.sh 
-qstat
-vi mergeFiles.sh 
-ls
-vim mergeFiles.sh 
-qsub mergeFiles.sh 
-ls
-qstat
-ls
-vi data-generator.R 
-ls
-vi data-generator.R 
-qsub mergeFiles.sh 
-ls
-qstat
-ls
-vi readSQLite.R
-ls
-vi readSQLite.py
-vi readSQLite.py 
-vi organize_data2.py 
-exit
-ls
-cd Merge\ Data\ Tools/
-ls
-vi data-generator.R 
-cd ..
-ls
-vi readSQLite.py 
-vi organize_data2.py 
-ls
-mv readSQLite.py data/
-cd d
-cd data
-ls
-ls
-cd Merge\ Data\ Tools/
-ls
-cd ..
-ls
-cd Output/
-ls
-vi jandres_job.e3474 
-ls
-vi jandres_job.e3474 
-ls
-cd
-ls
-cd data/
-ls
-cd ~
-cd ..
-ls
-cd jandres/
-ls
-cd data/
-ls
-cd ..
-ls
-cd Merge\ Data\ Tools/
-ls
-vi data-generator.R 
-ls
-cd ..
-ls
-cd data/
-ls
-R
-python
-ls
-vi readSQLite.py 
-ls
-cd directedStudy/
-ls
-cd program1\ without\ data/
-ls
-cd
-exit
-psql -h wrds-pgdata.wharton.upenn.edu -p 9737 -U jestover -W wrds
-python
-ls
-python
-ls
-python stockRNN2.py 
-cd data/
-ls
-vi readSQLite.py
-cp financial-data.sqlite finc-data.py
-ls
-cd ..
-ls
-cd directedStudy/program1\ without\ data/
-ls
-vi organize_data.py
-cd
-ls
-vi stockRNN2.py 
-python
-ls
-vi monthlyNN.py 
-vi monthly_organize_data.py
-vi organize_data2.py
-vi monthly_organize_data.py
-vi monthlyNN.py 
-vi monthly_organize_data.py
-vi monthlyNN.py 
-vi monthly_organize_data.py
-ls
-vi monthlyNN.py 
-ls
-cd Merge\ Data\ Tools/
-ls
-cd /users/jandres/
-ls
-cd Documents/
-ls
-mv monthly-momentum-data-generator.R ~
-ls
-cd
-ls
-mv monthly-momentum-data-generator.R Merge\ Data\ Tools/
-ls
-cd Merge\ Data\ Tools/
-ls
-cd ~
-ls
-git init
-git status
-git add -A
-git reset
-.gitignore -- /data/
-git status
-ls
-.gitignore data/
-git status
 .gitignore Merge\ Data\ Tools/data-generator.R 
 .gitignore Merge\ Data\ Tools/monthly-momentum-data-generator.R 
 git add -A
@@ -998,3 +589,412 @@ vi monthly_organize_data.py
 vi monthlyNN.py 
 python
 ls
+cd data/
+ls
+cd ..
+ls
+pwd
+ls
+cd data/
+ls
+ls -al
+less momentum_avgReturns.txt 
+less nn_predicted_avgReturns_by_momentum.txt 
+less nn_predicted_loss_by_momentum.txt 
+less momentum_avgReturns.txt 
+ls
+cd /home/mhibbs/
+ls
+vi run_momentum_analysis.sh 
+python
+:Q
+python
+ls
+vi loadPredMomentum.sh 
+vi testing.py 
+vi loadPredMomentum.sh 
+vi momentumNN.py
+vi testing.py 
+vi momentumNN.py
+vi testing.py 
+vi momentumNN.py
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+ls
+vi testing.py 
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh
+vi testing.py 
+qstat
+vi testing.py 
+ls
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+qstat
+vi testing.py 
+vi momentumNN.py
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+vi loadPredMomentum.sh 
+qstat
+vi loadPredMomentum.sh 
+vi momentumNN.py
+qstat
+vi momentumNN.py
+qsub loadPredMomentum.sh 
+:wq
+ls
+vi momentumNN.py
+vi testing.py 
+ls
+vi Merge\ Data\ Tools/momentum.R 
+vi testing.py 
+ls
+vi loadPredMomentum.sh 
+ls
+vi testing.py 
+ls
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+vi testing.py 
+ls
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+vi testing.py 
+qstat
+vi testing.py 
+qstat
+ls
+vi loadPredMomentum.sh 
+vi testing.py 
+vi momentumNN.py
+vi testing.py 
+qstat
+ls
+cd data/
+ls
+vi 4layer_test_momentum_avgReturns.txt 
+vi hopeful_test_momentum_avgReturns.txt 
+qstat
+ls
+ls -al
+ls -alt
+:q
+qstat
+ls
+ls -al
+ls -alt
+ls
+cd
+vi loadPredMomentum.sh 
+qstat
+ls -al
+ls
+ls -alt
+cd data/
+ls
+ls -alt
+:q
+cd
+ls
+vi momentumNN.py
+vi loadPredMomentum.sh 
+vi momentumNN.py
+vi testing.py 
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+ls
+vi loadPredMomentum.sh 
+ls
+vi momentumNN.py
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+qstat
+cd data/
+ls
+rm -rf exact_*
+ls
+rm -rf test_12*
+ls
+rm -rf nn_12_predicted_avgReturns_by_momentum.txt 
+ls
+ls -alt
+less hopeful_test_momentum_avgReturns.txt 
+cd ..
+ls
+cd Output/
+ls
+ls -alt
+vi jandres_job.e3883 
+rm -rf *
+ls
+cd ..
+ls
+cd data/
+ls
+less hopeful_test_momentum_avgReturns.txt 
+rm -rf hopeful_test_momentum_avgReturns.txt 
+ls
+vi nn_predicted_
+vi nn_predicted_avgReturns_by_momentum.txt 
+rm -rf nn_predicted_avgReturns_by_momentum.txt 
+ls -al
+ls -alt
+vi test_momentum_avgReturns.txt 
+rm -rf test_momentum_avgReturns.txt 
+ls
+vi test_fix_momentum_avgReturns.txt 
+ls -alt
+ls
+qstat
+ls
+exit
+vi ff_NN_momentum.py 
+ls
+vi ff_NN_momentum.py 
+ls
+python
+qstat
+ls
+cd data/
+ls
+python
+vi ff_NN_momentum.py 
+ls
+vi momentumNN.py
+ls
+cd ..
+cd mhibbs/
+LS
+ls
+cd
+cd..
+cd ..
+ls
+cd ..
+ls
+vi /users/jandres/
+cd
+ls
+cd Merge\ Data\ Tools/
+ls
+cp mergeFiles.sh loadPredMomentum.sh
+ls
+mv loadPredMomentum.sh ..
+ls
+cd
+ls
+vi loadPredMomentum.sh 
+ls
+ls -al
+cd ..
+cd mhibbs
+ls
+vim run_momentum_analysis.sh 
+cd /data/hibbslab/jandres/dates_avgReturns_by_momentum.txt
+cd /data/hibbslab/jandres/
+ls
+mv dates_avgReturns_by_momentum.txt 
+vi dates_avgReturns_by_momentum.txt 
+ls
+cd ..
+ls
+cd jandres/
+ls
+vi momentum
+vi momentumNN_hibbs.py 
+vi momentumNN.py 
+vi momentumNN_hibbs.py 
+cd ..
+ls
+vi test_script.sh 
+cd ..
+ls
+cd
+ls
+cd ..
+ls
+cd mhibbs/
+ls
+vi monthlyNN.py 
+vi test_script.sh 
+vi run_momentum_analysis.sh 
+cd
+ls
+vi loadPredMomentum.sh 
+ls
+vi loadPredMomentum.sh 
+vi /data/hibbslab/jandres/momentumNN_hibbs.py
+vi loadPredMomentum.sh 
+vi /data/hibbslab/jandres/momentumNN_hibbs.py
+vi momentumNN.py
+vi /data/hibbslab/jandres/momentumNN_hibbs.py
+vi momentumNN.py
+vi loadPredMomentum.sh 
+cd
+cd ..
+ls
+cd jandres/
+ls
+vi loadPredMomentum.sh 
+vi /data/hibbslab/jandres/momentumNN_hibbs.py
+cd ..
+cd mhibbs/
+ls
+vi run_momentum_analysis.sh 
+cd
+ls
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+vi momentumNN.py
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+qstat
+ls
+cd data
+ls
+cd 
+ls
+cd ..
+cd mhibss
+cd mhibbs
+ls
+vi run_momentum_analysis.sh 
+cd /data/hibbslab/jandres/dates_avgReturns_by_momentum.txt
+cd /data/hibbslab/jandres/
+ls
+cp dates_avgReturns_by_momentum.txt /home/jandres/data/momentum_avgReturns.txt
+disk quota
+quota
+ls
+ls -al
+cd
+ls
+vi momentumNN.py
+ls -al
+vi momentumNN.py
+ls
+vi momentumNN.py
+"du -sch /home/*
+"
+fsk
+vi momentumNN.py
+ls
+cd data/
+ls
+vi momentum_avgReturns.txt 
+rm -rf momentum_avgReturns.txt 
+:q
+ls
+cd
+vi momentumNN.py
+cd
+ls
+vi test.txt
+ls
+rm -rf :wq
+ls
+rm -rf test.txt 
+rm -rf test_org.py 
+ls
+vi momentumNN.py
+vi loadPredMomentum.sh 
+vi momentumNN.py
+vi loadPredMomentum.sh 
+vi momentumNN.py
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+ls
+qstat
+cd data/
+ls
+vi momentum
+cd
+cd Output/
+ls
+vi jandres_job.e3797 
+vi jandres_job.e3817 
+vi jandres_job.e3818 
+qstat
+cd
+cd data/
+ls
+vi nn_predicted_avgReturns_by_momentum.txt 
+vi nn_predicted_loss_by_momentum.txt 
+excel ls -al
+ls -al
+cd
+ls
+libraOffice data/momentum_avgReturns.txt 
+libreOffice data/momentum_avgReturns.txt 
+LibreOffice data/momentum_avgReturns.txt 
+ls
+vi momentumNN.py
+cd data/
+ls
+rm -rf momentum_avgReturns.txt 
+ls
+cd
+ls
+cd data/
+ls
+ls -al
+vi finc-data.py 
+less finc-data.py 
+rm -rf finc-data.py 
+ls
+ls -al
+rm -rf .finc-data.py.swp 
+ls
+ls -al
+cd
+ls
+vi momentumNN.py
+ls
+git status
+
+git status -A
+git add -A
+git commit -m "momentum working"
+git push origin master
+ls
+cp momentumNN.py testing.py
+vi testing.py 
+vi momentumNN.py
+vi testing.py 
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+ls
+vi momentumNN.py
+vi loadPredMomentum.sh 
+vi testing.py 
+qstat
+vi testing.py 
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+ls
+qstat
+cd data/
+ls
+vi test_momentum_avgReturns.txt 
+ls
+qstat
+ls
+less test12
+less test_12_momentum_avgReturns.txt 
+cd
+ls
+vi momentumNN.py
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+ls
+vi testing.py 
+vi loadPredMomentum.sh 
+qsub loadPredMomentum.sh 
+qstat
+cd data/
+ls
+qstat
+ls
+cd
+python

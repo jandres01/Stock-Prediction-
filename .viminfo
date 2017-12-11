@@ -7,12 +7,59 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~MSle0~/sdasdasd
+
+# Last Substitute Search Pattern:
+~MSle0&return
+
+# Last Substitute String:
+$perc
+
 # Command Line History (newest to oldest):
 :wq
 :w
 :q
+:wq!
+:'<,'>s/return/perc/g
+:W
+::q
+:Wq
+:w ff_NN_momentum.py
+:w perceptron_momentum.py
+:w perceptron_momentum
+:w momentum_perceptron
 
 # Search String History (newest to oldest):
+?/sdasdasd
+? return
+? \<epochs\>
+?/epochs
+?/asdad
+?/11
+?/hgfhf
+?/data
+?/x_data
+?/y_data
+?/asdasd
+?/y_train
+?/train_step
+?/train
+?/cDate
+?/asdadas
+?/batch
+?/asddasd
+?/Optimizer
+?/optimizer
+?/j
+?/reduce
+?/asdas
+?/asdasda
+?/predData
+?/calcNN_Pred
+?/n_stock
+?/dad
+? \<nAvgReturns\>
 
 # Expression History (newest to oldest):
 
@@ -21,63 +68,337 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+"0	CHAR	0
+	  a_date = a.iloc[0]['date'] 
+	
+	
+""1	LINE	0
+	    #training = data[data['date']< date]
+"2	LINE	0
+	    #testing = data[data['date'] >= date] #testing
+"3	LINE	0
+	    date = "2011-11-20"
+"4	LINE	0
+	    data[(data['date'] >= "2011-11-20") & (data['date'] <= "2012-12-12")] 
+"5	LINE	0
+	    data[(data['date'] >= "2011-11-20") & (data['date'] <= "2012-12-12")]
+"6	LINE	0
+	
+"7	LINE	0
+	loop = ["c1","c2"
+"8	LINE	0
+	    x_test = testing[['return_lag_1','return_lag_2','return_lag_3','return_lag_4','return_lag_5','return_lag_6','return_lag_7','return_lag_8','return_lag_9','return_lag_10','return_lag_11','total_past_return_percentile']]
+"9	LINE	0
+	    x_train = training[['return_1','return_2','return_3','return_4','return_5','return_6','return_7','return_8','return_9','return_10','return_11','total_past_return_perc']]
+"q	CHAR	0
+	:
+"-	CHAR	0
+	c
 
 # File marks:
-'0  127  0  ~/momentumNN.py
-'1  129  33  ~/momentumNN.py
-'2  1  0  /home/mhibbs/run_momentum_analysis.sh
+'0  1  0  ~/data/finc-data.py
+'1  1  0  /home/mhibbs/run_momentum_analysis.sh
+'2  106  0  ~/ff_NN_momentum.py
+'3  142  0  ~/ff_NN_momentum.py
+'4  152  0  ~/ff_NN_momentum.py
+'5  116  16  ~/ff_NN_momentum.py
+'6  1  20  ~/stockRNN2.py
+'7  122  0  ~/ff_NN_momentum.py
+'8  12  0  ~/loadPredMomentum.sh
+'9  186  0  ~/ff_NN_momentum.py
 
 # Jumplist (newest first):
--'  127  0  ~/momentumNN.py
--'  129  4  ~/momentumNN.py
--'  130  0  ~/momentumNN.py
--'  126  0  ~/momentumNN.py
--'  136  0  ~/momentumNN.py
--'  1  0  ~/momentumNN.py
+-'  1  0  ~/data/finc-data.py
 -'  1  0  /home/mhibbs/run_momentum_analysis.sh
--'  1  0  /home/mhibbs/run_momentum_analysis.sh
--'  1  0  /home/mhibbs/run_momentum_analysis.sh
--'  1  0  /home/mhibbs/run_momentum_analysis.sh
+-'  108  27  ~/ff_NN_momentum.py
+-'  106  0  ~/ff_NN_momentum.py
+-'  77  16  ~/ff_NN_momentum.py
+-'  142  0  ~/ff_NN_momentum.py
+-'  152  0  ~/ff_NN_momentum.py
+-'  116  0  ~/ff_NN_momentum.py
+-'  122  0  ~/ff_NN_momentum.py
+-'  1  20  ~/stockRNN2.py
+-'  186  0  ~/ff_NN_momentum.py
+-'  12  0  ~/loadPredMomentum.sh
+-'  188  0  ~/ff_NN_momentum.py
+-'  120  0  ~/ff_NN_momentum.py
+-'  79  4  ~/ff_NN_momentum.py
+-'  195  0  ~/ff_NN_momentum.py
+-'  10  0  ~/loadPredMomentum.sh
+-'  169  4  ~/ff_NN_momentum.py
+-'  165  4  ~/ff_NN_momentum.py
+-'  197  0  ~/ff_NN_momentum.py
+-'  1  0  ~/data/nmr_100_momentum_avgReturns.txt
+-'  1  0  ~/Output/jandres_job.e4093
+-'  1  0  ~/Output/jandres_job.o4093
+-'  82  4  ~/ff_NN_momentum.py
+-'  71  11  ~/Merge Data Tools/revised-monthly-momentum-data-generator.R
+-'  49  4  ~/Merge Data Tools/revised-monthly-momentum-data-generator.R
+-'  161  0  ~/ff_NN_momentum.py
+-'  183  0  ~/ff_NN_momentum.py
+-'  1  0  ~/data/nmr_100_momentum_avgReturns.csv
+-'  926  0  ~/data/nmr_100_momentum_avgReturns.txt
+-'  1  0  ~/data/nmr_100_momentum_avgReturns.
+-'  92  0  ~/ff_NN_momentum.py
+-'  192  0  ~/ff_NN_momentum.py
+-'  1  0  ~/Output/jandres_job.e4088
+-'  190  0  ~/ff_NN_momentum.py
+-'  80  4  ~/ff_NN_momentum.py
+-'  99  2  ~/Merge Data Tools/revised-monthly-momentum-data-generator.R
+-'  54  6  ~/ff_NN_momentum.py
+-'  109  1  ~/Merge Data Tools/revised-monthly-momentum-data-generator.R
+-'  40  4  ~/ff_NN_momentum.py
+-'  104  0  ~/Merge Data Tools/revised-monthly-momentum-data-generator.R
+-'  146  0  ~/ff_NN_momentum.py
+-'  88  4  ~/ff_NN_momentum.py
+-'  91  26  ~/ff_NN_momentum.py
+-'  13  0  ~/Merge Data Tools/mergeFiles.sh
+-'  42  10  ~/Merge Data Tools/revised-monthly-momentum-data-generator.R
+-'  32  57  ~/Merge Data Tools/revised-monthly-momentum-data-generator.R
+-'  1  0  ~/Merge Data Tools/revised-monthly-momentum-data-generator.R
+-'  1  0  ~/Merge Data Tools/mergeFiles.sh
+-'  170  4  ~/ff_NN_momentum.py
+-'  154  0  ~/ff_NN_momentum.py
+-'  129  0  ~/ff_NN_momentum.py
+-'  182  4  ~/ff_NN_momentum.py
+-'  1  0  ~/momentumNN.pyc
+-'  20  0  ~/jandres
+-'  1  0  ~/jandres
+-'  112  10  ~/ff_NN_momentum.py
+-'  194  0  ~/ff_NN_momentum.py
+-'  171  4  ~/ff_NN_momentum.py
+-'  172  4  ~/ff_NN_momentum.py
+-'  175  4  ~/ff_NN_momentum.py
+-'  174  4  ~/ff_NN_momentum.py
+-'  191  4  ~/ff_NN_momentum.py
+-'  185  0  ~/ff_NN_momentum.py
+-'  62  6  ~/ff_NN_momentum.py
+-'  1  0  ~/Output/jandres_job.e3975
+-'  61  22  ~/ff_NN_momentum.py
+-'  189  0  ~/ff_NN_momentum.py
+-'  1  0  ~/Output/jandres_job.e3969
+-'  1  0  ~/Output
+-'  119  0  ~/ff_NN_momentum.py
+-'  64  23  ~/ff_NN_momentum.py
+-'  63  22  ~/ff_NN_momentum.py
+-'  81  4  ~/ff_NN_momentum.py
+-'  121  0  ~/ff_NN_momentum.py
+-'  124  0  ~/ff_NN_momentum.py
+-'  138  0  ~/ff_NN_momentum.py
+-'  128  0  ~/ff_NN_momentum.py
+-'  45  0  ~/ff_NN_momentum.py
+-'  198  0  ~/ff_NN_momentum.py
+-'  52  4  ~/ff_NN_momentum.py
+-'  117  0  ~/ff_NN_momentum.py
+-'  66  4  ~/ff_NN_momentum.py
+-'  164  0  ~/ff_NN_momentum.py
+-'  1188  0  ~/data/4layer_test_momentum_avgReturns.txt
+-'  1  0  ~/data/4layer_test_momentum_avgReturns.txt
+-'  115  0  ~/ff_NN_momentum.py
+-'  179  135  ~/ff_NN_momentum.py
+-'  158  0  ~/ff_NN_momentum.py
+-'  178  6  ~/ff_NN_momentum.py
+-'  148  0  ~/ff_NN_momentum.py
+-'  163  0  ~/ff_NN_momentum.py
+-'  1  0  ~/Output/jandres_job.o3907
+-'  1  0  ~/Output/jandres_job.e3907
+-'  114  15  ~/ff_NN_momentum.py
+-'  118  0  ~/ff_NN_momentum.py
+-'  1  0  ~/data/nmr_momentum_avgReturns.txt
+-'  113  0  ~/ff_NN_momentum.py
+-'  111  0  ~/ff_NN_momentum.py
 
 # History of marks within files (newest to oldest):
 
-> ~/momentumNN.py
-	"	127	0
-	^	132	1
-	.	138	0
-	+	161	0
-	+	144	0
-	+	130	24
-	+	130	0
-	+	124	0
-	+	130	0
-	+	130	3
-	+	130	3
-	+	130	3
-	+	130	3
-	+	130	3
-	+	130	4
-	+	130	3
-	+	126	24
-	+	136	0
-	+	130	56
-	+	136	0
-	+	130	15
-	+	135	0
-	+	126	17
-	+	129	29
-	+	128	15
-	+	129	3
-	+	130	3
-	+	131	3
-	+	132	3
-	+	133	3
-	+	134	3
-	+	135	3
-	+	136	0
-	+	138	6
-	+	136	30
-	+	138	0
+> ~/data/finc-data.py
+	"	1	0
 
-> /home/mhibbs/run_momentum_analysis.sh
+> ~/ff_NN_momentum.py
+	"	108	27
+	^	108	37
+	.	108	36
+	+	195	40
+	+	188	0
+	+	186	0
+	+	91	0
+	+	91	22
+	+	92	0
+	+	188	0
+	+	186	0
+	+	182	0
+	+	183	0
+	+	165	14
+	+	161	0
+	+	195	39
+	+	79	15
+	+	80	46
+	+	82	44
+	+	165	13
+	+	186	0
+	+	188	0
+	+	195	42
+	+	188	0
+	+	186	0
+	+	79	21
+	+	186	0
+	+	188	0
+	+	195	42
+	+	79	15
+	+	195	43
+	+	188	0
+	+	186	0
+	+	188	0
+	+	186	0
+	+	114	14
+	+	115	14
+	+	116	14
+	+	114	17
+	+	115	16
+	+	116	17
+	+	115	17
+	+	114	16
+	+	115	16
+	+	116	14
+	+	157	0
+	+	116	16
+	+	91	0
+	+	91	22
+	+	92	0
+	+	92	0
+	+	93	4
+	+	93	21
+	+	94	0
+	+	95	0
+	+	96	0
+	+	97	0
+	+	94	3
+	+	95	3
+	+	96	3
+	+	97	3
+	+	94	13
+	+	95	13
+	+	96	13
+	+	97	4
+	+	96	4
+	+	95	4
+	+	98	62
+	+	93	0
+	+	98	44
+	+	100	18
+	+	77	29
+	+	79	4
+	+	79	4
+	+	164	29
+	+	167	34
+	+	169	19
+	+	107	10
+	+	101	48
+	+	107	31
+	+	191	43
+	+	79	0
+	+	102	23
+	+	104	0
+	+	103	0
+	+	102	0
+	+	108	85
+	+	107	0
+	+	106	0
+	+	108	0
+	+	106	0
+	+	103	0
+	+	104	0
+	+	102	0
+	+	107	0
+	+	106	0
+	+	104	0
+	+	103	0
+	+	102	0
+	+	101	34
+	+	106	0
+	+	107	33
+	+	108	36
+
+> ~/stockRNN2.py
+	"	1	20
+
+> ~/loadPredMomentum.sh
+	"	12	0
+	^	12	69
+	.	12	69
+	+	14	60
+	+	11	0
+	+	12	0
+	+	14	0
+	+	12	0
+	+	14	94
+	+	14	0
+	+	12	63
+	+	14	0
+	+	12	0
+	+	14	0
+	+	12	63
+	+	14	0
+	+	12	0
+	+	14	0
+	+	12	0
+	+	14	90
+	+	14	0
+	+	12	66
+	+	10	9
+	+	12	69
+
+> ~/data/nmr_100_momentum_avgReturns.txt
+	"	1	0
+
+> ~/Output/jandres_job.e4093
+	"	1	0
+
+> ~/Output/jandres_job.o4093
+	"	1	0
+
+> ~/Merge Data Tools/revised-monthly-momentum-data-generator.R
+	"	71	11
+	^	104	1
+	.	104	0
+	+	18	34
+	+	32	43
+	+	104	0
+
+> ~/data/nmr_100_momentum_avgReturns.csv
+	"	1	0
+
+> ~/data/nmr_100_momentum_avgReturns.
+	"	1	0
+
+> ~/Output/jandres_job.e4088
+	"	1	0
+
+> ~/Merge Data Tools/mergeFiles.sh
+	"	13	0
+	^	13	55
+	.	13	14
+	+	13	14
+
+> ~/momentumNN.pyc
+	"	1	0
+
+> ~/Output/jandres_job.e3975
+	"	1	0
+
+> ~/Output/jandres_job.e3969
+	"	1	0
+
+> ~/data/4layer_test_momentum_avgReturns.txt
+	"	1188	0
+
+> ~/Output/jandres_job.o3907
+	"	1	0
+
+> ~/Output/jandres_job.e3907
+	"	1	0
+
+> ~/data/nmr_momentum_avgReturns.txt
+	"	1	0
+
+> ~/data/nmr_11_momentum_avgReturns.txt
 	"	1	0
